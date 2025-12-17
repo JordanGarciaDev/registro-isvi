@@ -90,4 +90,13 @@ Extensiones PHP requeridas:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/JordanGarciaDev/registro-isvi.git
+   git clone https://github.com/JordanGarciaDev/registro-isvi.git```
+   
+2. Correr el comando:
+php artisan serve
+y este comando en otra ventana:
+npm run dev
+
+3. Al editar las vistas o controladores se debe hacer npm run build
+
+4. Copiar la carpeta public/build en el hosting ruta public_html
