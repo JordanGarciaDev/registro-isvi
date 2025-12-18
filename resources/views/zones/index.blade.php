@@ -308,7 +308,7 @@
                             <div class="col-md-12 small">
                                 <div class="alert alert-info d-flex align-items-center text-center mt-2" role="alert">
                                     <i class="fas fa-file-signature me-2"></i>
-                                    <p class="m-0">La fecha de Creación de este registro fue el
+                                    <p class="m-0">Fecha de registro:
                                         <strong id="zoneCreated"></strong>
                                     </p>
                                 </div>

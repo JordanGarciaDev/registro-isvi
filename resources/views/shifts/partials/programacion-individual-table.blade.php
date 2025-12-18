@@ -1,5 +1,6 @@
 @php
     use Carbon\Carbon;
+    Carbon::setLocale('es');
 
     $hoy = Carbon::now();
     $fechaFinal = Carbon::parse($shift->day_until);

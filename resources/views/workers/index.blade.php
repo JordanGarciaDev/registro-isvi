@@ -327,7 +327,7 @@
                                     <div class="alert alert-info" role="alert"
                                          style="display: flex; align-items: center;">
                                         <i class="fas fa-file-signature mr-2"></i>
-                                        <p style="margin: 0;">La fecha de Creación de este registro fue el <strong
+                                        <p style="margin: 0;">Fecha de registro:  <strong
                                                     id="workerCreated"></strong></p>
                                     </div>
                                 </div>

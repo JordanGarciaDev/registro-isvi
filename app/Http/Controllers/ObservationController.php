@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Carbon;
 use Barryvdh\DomPDF\Facade\Pdf;
+Carbon::setLocale('es');
 
 class ObservationController extends Controller
 {
@@ -188,7 +189,7 @@ class ObservationController extends Controller
                 }
             }
         } else {
-            $novedades = Observation::whereIn('user_id', $usuarios)
+            $novedades = Observation::whereIn('personal_shift_id', $usuarios)
                 ->whereBetween('created_at', [$fechaDesde, $fechaHasta])
                 ->get();
 
@@ -201,15 +202,15 @@ class ObservationController extends Controller
         // Preparar datos para la vista PDF
         $data = [
             'novedades' => $novedades,
-            'fecha_actual' => Carbon::now()->format('d F Y'),
-            'fecha_desde' => Carbon::parse($fechaDesde)->format('d F Y'),
-            'fecha_hasta' => Carbon::parse($fechaHasta)->format('d F Y'),
+            'fecha_actual'  => Carbon::now()->translatedFormat('d F Y'), //Fechas graducida al español by jordan
+            'fecha_desde'   => Carbon::parse($fechaDesde)->translatedFormat('d F Y'),
+            'fecha_hasta'   => Carbon::parse($fechaHasta)->translatedFormat('d F Y'),
         ];
 
         // Generar el PDF
         $pdf = Pdf::loadView('reports.novedades', $data);
 
         // Descargar o mostrar el PDF
-        return $pdf->download('Reporte_Novedades_' . Carbon::now()->format('Ymd') . '.pdf');
+        return $pdf->download('Reporte_Novedades_' . Carbon::now()->translatedFormat('d F Y'). '.pdf');
     }
 }
