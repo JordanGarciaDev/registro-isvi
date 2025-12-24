@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e85119-52bd-4946-8614-e528e2d4c744" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ObservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ObservationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shifts/partials/programacion-individual-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shifts/partials/programacion-individual-table.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shifts/partials/programacion-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shifts/partials/programacion-table.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/workers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/workers/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/zones/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/zones/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,70 +14,45 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/observations/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ObservationController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="216" lean-forward="true" selection-start-line="216" selection-end-line="216" />
-              <folding>
-                <element signature="e#40#67#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/framework/views/41425f60e080c6472001abe6a7402c95dffa8aac.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/reports/novedades.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="75" column="54" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foto</find>
-      <find>Registro de Personal operativo</find>
-      <find>file</find>
-      <find>previewImage</find>
-      <find>personal/photos</find>
-      <find>Nombré Área</find>
-      <find>required</find>
-      <find>photo</find>
-      <find>photoInput</find>
-      <find>scripts</find>
-      <find>SELECT * FROM `observations` WHERE `user_id</find>
-      <find>observations</find>
-      <find>La fecha de Creación de este registro fue el</find>
       <find>Generado:</find>
       <find>fecha_actual</find>
       <find>use Carbon\Carbon;</find>
       <find>Carbon::now()-</find>
+      <find>https://maps.googleapis.com/maps/api/js</find>
+      <find>name=&quot;address&quot;</find>
+      <find>.MuiInputBase-input</find>
+      <find>&lt;select</find>
+      <find>MuiGrid-root MuiGrid-item</find>
+      <find>.title</find>
+      <find>#step-2 .MuiGrid-item{</find>
+      <find>56px</find>
+      <find>Características</find>
+      <find>step-2</find>
+      <find>vlt-next</find>
+      <find>lass=&quot;vlt-next</find>
+      <find>+351</find>
+      <find>MuiButton-root</find>
+      <find>adio-item</find>
+      <find>radio-item</find>
+      <find>radio-</find>
+      <find>.radio-item {</find>
+      <find>submitForm</find>
+      <find>post</find>
+      <find>form.js</find>
+      <find>wp_enqueue_scripts</find>
+      <find>Formulario enviado correctamente</find>
+      <find>Valuation Form Clone Plugin</find>
+      <find>tipo d</find>
+      <find>vlt_email_subject</find>
     </findStrings>
     <replaceStrings>
       <replace>Fecha de registro:</replace>
+      <replace>&quot;</replace>
+      <replace>&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\registro-isvi</dir>
@@ -105,6 +74,11 @@
         <option value="$PROJECT_DIR$/resources/views/shifts/partials/programacion-table.blade.php" />
         <option value="$PROJECT_DIR$/storage/framework/views/c9a86cad3491701e56d8834e2710d77a6c15fcda.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ObservationController.php" />
+        <option value="$PROJECT_DIR$/artisan" />
+        <option value="$PROJECT_DIR$/resources/views/observations/index.blade.php" />
+        <option value="$USER_HOME$/Documents/Downloads/valuation-form-clone/templates/form.php" />
+        <option value="$USER_HOME$/Documents/Downloads/valuation-form-clone/assets/form.js" />
+        <option value="$USER_HOME$/Documents/Downloads/valuation-form-clone/valuation-form.php" />
       </list>
     </option>
   </component>
@@ -270,7 +244,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SGprestamos" />
+    <property name="last_opened_file_path" value="C:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -306,18 +280,18 @@
       <workItem from="1765901616033" duration="1989000" />
       <workItem from="1765933169988" duration="9602000" />
       <workItem from="1766077771709" duration="676000" />
-      <workItem from="1766085591031" duration="2934000" />
+      <workItem from="1766085591031" duration="15160000" />
+      <workItem from="1766156319978" duration="136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15784000" />
+    <option name="totallyTimeSpent" value="28146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="149" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15960665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -432,13 +406,6 @@
     <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/observations/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/framework/views/41425f60e080c6472001abe6a7402c95dffa8aac.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -469,6 +436,70 @@
           <caret line="216" lean-forward="true" selection-start-line="216" selection-end-line="216" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/simulador.decisoesesolucoes.com/static/css/main.df4f0b70.chunk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/simulador.decisoesesolucoes.com/static/js/main.8c0969ce.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="529" column="45" lean-forward="true" selection-start-line="529" selection-start-column="45" selection-end-line="529" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/simulador.decisoesesolucoes.com/static/js/2.ac2a2757.chunk.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/observations/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Downloads/valuation-form-clone/assets/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Downloads/valuation-form-clone/templates/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="371" column="69" selection-start-line="371" selection-start-column="69" selection-end-line="371" selection-end-column="69" />
+          <folding>
+            <element signature="e#5032#31563#2#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#2;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Downloads/valuation-form-clone/valuation-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="e#3485#3520#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
